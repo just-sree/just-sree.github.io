@@ -1,0 +1,278 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Resume - Start Bootstrap Theme
+
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v6.3.0/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+            a.navbar-brand.js-scroll-trigger(href='#page-top')
+                span.d-block.d-lg-none Sree Sankaran Chackoth
+                span.d-none.d-lg-block
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='Sree Sankaran Chackoth')
+            button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarResponsive.collapse.navbar-collapse
+                ul.navbar-nav
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#about') About
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#experience') Experience
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#education') Education
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#skills') Skills
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#projects') Projects
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#blog') Blog
+
+        // Page Content
+        .container-fluid.p-0
+
+            // About
+            section#about.resume-section
+                .resume-section-content
+                    h1.mb-0
+                        | Sree Sankaran
+                        span.text-primary Chackoth
+                    .subheading.mb-3
+                        | Ottawa, Canada · 
+                        a(href='mailto:sreechackoth@gmail.com') sreechackoth@gmail.com
+                    .mb-3
+                        a(href='https://github.com/just-sree', target='_blank')
+                            i.fab.fa-github.fa-lg.mx-2
+                        a(href='https://www.linkedin.com/in/sreechackoth', target='_blank')
+                            i.fab.fa-linkedin.fa-lg.mx-2
+                        a(href='https://just-sree.github.io', target='_blank')
+                            i.fas.fa-globe.fa-lg.mx-2
+                        a(href='assets/pdf/resume.pdf', download)
+                            button.btn.btn-outline-primary.btn-sm.ml-3(type='button')
+                                i.fas.fa-download
+                                |  Download Resume
+                    p.lead.mb-4
+                        | AI Engineer & Data Analyst passionate about building robust ML solutions, NLP workflows, and public writing. Open to collaboration and new opportunities.
+                    p
+                        | Experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+                    .social-icons
+                        a.social-icon(href='#!')
+                            i.fab.fa-linkedin-in
+                        a.social-icon(href='#!')
+                            i.fab.fa-github
+                        a.social-icon(href='#!')
+                            i.fab.fa-twitter
+                        a.social-icon(href='#!')
+                            i.fab.fa-facebook-f
+
+            hr.m-0
+
+            // Experience
+            section#experience.resume-section
+               .resume-section-content
+                    h2.mb-5 Experience
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 AI Engineer (Applied Research)
+                            .subheading.mb-3 Communications Security Establishment (CSE), Canada
+                            ul
+                                li Developed a CLI-based malware binary classification tool
+                                li Used Random Forest, XGBoost, and LightGBM on Windows PE files
+                                li Focused on real-world threat detection
+                        .flex-shrink-0
+                            span.text-primary Jan 2025 – Apr 2025
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Data Analyst
+                            .subheading.mb-3 IRCC (Immigration, Refugees and Citizenship Canada)
+                            ul
+                                li Built machine learning models to forecast immigration trends
+                                li Created visual dashboards for policy stakeholders
+                                li Worked with historical IRCC data
+                        .flex-shrink-0
+                            span.text-primary Sep 2024 – Dec 2024
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Web Developer
+                            .subheading.mb-3 Intelitec Solutions
+                            p
+                                | Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+                        .flex-shrink-0
+                            span.text-primary December 2011 - March 2013
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Junior Web Designer
+                            .subheading.mb-3 Shout! Media Productions
+                            p
+                                | Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.
+                        .flex-shrink-0
+                            span.text-primary July 2010 - December 2011
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 Web Design Intern
+                            .subheading.mb-3 Shout! Media Productions
+                            p
+                                | Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
+                        .flex-shrink-0
+                            span.text-primary September 2008 - June 2010
+
+            hr.m-0
+
+            // Education
+            section#education.resume-section
+                .resume-section-content
+                    h2.mb-5 Education
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Graduate Certificate – Business Intelligence Systems and Infrastructure
+                            .subheading.mb-3 Algonquin College, Ottawa
+                            p 2024–2025
+                        .flex-shrink-0
+                            span.text-primary 2024–2025
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Graduate Certificate – Artificial Intelligence Software Development
+                            .subheading.mb-3 Algonquin College, Ottawa
+                            p 2023–2024
+                        .flex-shrink-0
+                            span.text-primary 2023–2024
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 Bachelor of Technology – Electronics and Communication Engineering
+                            .subheading.mb-3 Presidency University, Bengaluru
+                            p 2018–2022
+                        .flex-shrink-0
+                            span.text-primary 2018–2022
+
+            hr.m-0
+
+            // Skills
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-5 Skills
+                    .subheading.mb-3 Programming
+                    ul.list-inline.dev-icons
+                        li.list-inline-item Python
+                        li.list-inline-item SQL
+                        li.list-inline-item JavaScript
+                    .subheading.mb-3 AI/ML
+                    ul
+                        li Scikit-learn, XGBoost, PyCaret, TensorFlow, PyTorch
+                    .subheading.mb-3 Data
+                    ul
+                        li Power BI, Tableau, Pandas, NumPy
+                    .subheading.mb-3 NLP
+                    ul
+                        li LangChain, Hugging Face Transformers, Sentence Transformers
+                    .subheading.mb-3 Web Tools
+                    ul
+                        li GitHub, Git, Gradio, Streamlit
+                    .subheading.mb-3 Cloud & Deployment
+                    ul
+                        li GitHub Pages, CLI apps
+                    .subheading.mb-3 Soft Skills
+                    ul
+                        li Strong communication, collaboration, public writing
+
+            hr.m-0
+
+            // Projects
+            section#projects.resume-section
+                .resume-section-content
+                    h2.mb-5 Projects & Repositories
+                    .mb-4
+                        ul
+                            li
+                                strong Customer Churn Forecasting
+                                |  – 
+                                a(href='https://github.com/just-sree/Churn-Forecasting-and-Strategic-Retention-Using-Data-Analytics---A', target='_blank') GitHub
+                                br
+                                | XGBoost-based churn model with LangChain + NLP analysis. CLI for retention insights.
+                            li
+                                strong AI Text-to-Voice Summary Converter
+                                |  – 
+                                a(href='https://github.com/just-sree/AI-text-to-voice-summary-converter', target='_blank') GitHub
+                                br
+                                | Converts LLM summaries into audio output. Uses Gradio + Python.
+                            li
+                                strong Cryptocurrency Forecasting
+                                |  – 
+                                a(href='https://github.com/just-sree/CryptoForecasts', target='_blank') GitHub
+                                br
+                                | Facebook Prophet-based time series model for BTC/ETH forecasting.
+                            li
+                                strong Loan Eligibility Prediction
+                                |  – 
+                                a(href='https://github.com/just-sree/Loan-Eligibility-Model', target='_blank') GitHub
+                                br
+                                | Predictive modeling using Logistic Regression + ensemble models.
+                            li
+                                strong Object Detection using Hugging Face
+                                |  – 
+                                a(href='https://github.com/just-sree/Object-Detection-using-HF', target='_blank') GitHub
+                                br
+                                | Fine-tuned object detection pipeline using Hugging Face transformers.
+                            li
+                                strong Real Estate Price Prediction
+                                |  – 
+                                a(href='https://github.com/just-sree/Real-Estate-Price-Prediction-using-Random-Forest', target='_blank') GitHub
+                                br
+                                | Regression model for home prices with EDA & hyperparameter tuning.
+                            li
+                                strong Malware Binary Classification Tool
+                                |  – 
+                                a(href='https://github.com/just-sree/malware-classifier-cli', target='_blank') GitHub
+                                br
+                                | CLI-based static malware classifier using ML for PE files (from CSE project).
+            hr.m-0
+
+            // Blog
+            section#blog.resume-section
+                .resume-section-content
+                    h2.mb-5 Blog & Publications
+                    ul
+                        li
+                            strong mAIstro: Multi-Agent AI Workflows for Medical Imaging
+                            |  – 
+                            a(href='https://medium.com/@sreechackoth/maistro-ai-agents-imaging', target='_blank') Medium
+                            br
+                            | Walkthrough of mAIstro – an LLM-powered orchestration engine for radiology.
+                        li
+                            strong (Upcoming) Blog on building your own AI CLI agent using LangChain.
+                            |  – 
+                            a(href='https://just-sree.github.io', target='_blank') GitHub Pages
+                            br
+                            | Step-by-step guide on creating AI CLI agents with LangChain.
+
+        // Bootstrap core JS
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
